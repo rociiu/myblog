@@ -1,0 +1,10 @@
+<div class="posts">
+	<ul>
+		<% for post in @posts %>
+			<li class="post">
+				<%= custom_date post.created_at %>
+				<div class="title"><span><%= link_to post.title, page_path(post) %></span></div>
+			</li>
+		<% end %>
+	</ul>
+</div>

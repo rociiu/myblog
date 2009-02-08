@@ -1,0 +1,33 @@
+<p>
+  <b>Parent:</b>
+  <%=h @comment.parent_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @comment.title %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @comment.comment %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @comment.email %>
+</p>
+
+<p>
+  <b>Site:</b>
+  <%=h @comment.site %>
+</p>
+
+<p>
+  <b>Nickname:</b>
+  <%=h @comment.nickname %>
+</p>
+
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>

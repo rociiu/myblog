@@ -1,0 +1,97 @@
+body {
+	text-align: center;
+	font-size: 80%;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+h1 {
+	font-size: 4em;
+	color: #16BAE3;
+	font-weight: bold;
+	font-family: Georgia,Times,serif;
+}
+h2 {
+	font-size: 3em;
+}
+a {
+	color: #3366FF;
+}
+#wraper {
+	text-align: left;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: #fff;
+	padding: 1em;
+}
+#header {
+	margin: 10px 0;
+}
+#logo {
+	float: left;
+}
+#menu {
+	float: right;
+}
+#menu ul li {
+	display: inline;
+	margin-right: 10px;
+	background: #D5E9F6;
+	float: left;
+	padding: .5em;
+	width: 90px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+#menu ul li a {
+	padding: .5em;
+	text-decoration: none;
+}
+#menu ul li:hover {
+	background: #0066CC;
+}
+#menu ul li:hover a {
+	color: white;
+}
+#menu {
+	margin: 10px 0;
+}
+#mainContent {
+	margin-top: 40px;
+	width: 100%;
+	font-size: 1.4em;
+}
+div.posts {
+	margin: 0 auto;
+	width: 80%;
+}
+li.post {
+	position: relative;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+li.post .date {
+	background: #eee;
+	padding: 3px;
+	position: absolute;
+	top: 0px;
+	left: -60px;
+}
+li.post .title span {
+	padding: 1em;
+}
+li.post .title:hover span {
+	padding: 1em;
+	background: #1F1D1D;
+	color: white;
+}
+li.post .title:hover a {
+	color: white;
+}
+li.post .date .year {
+	background: #1F1D1D;
+	color: white;
+}
+.clear {
+	clear: both;
+}
