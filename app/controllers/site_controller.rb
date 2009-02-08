@@ -12,4 +12,14 @@ class SiteController < ApplicationController
     
   end
   
+  def login
+    
+  end
+  
+  def logout
+    session[:user] = nil
+    flash[:notice] = "You are logged out."
+    redirect_to '/'
+  end
+  
 end

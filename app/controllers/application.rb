@@ -14,4 +14,23 @@ class ApplicationController < ActionController::Base
   # filter_parameter_logging :password
   
   layout 'default'
+  
+  before_filter :check_browser
+  
+  
+  protected
+    
+    def check_browser
+      if(request.env["HTTP_USER_AGENT"].starts_with? "IE")
+        flash[:notice] = "Sorry I don't support IE because IE just sucks ."
+      end
+    end
+    
+    def login_required
+      unless session[:user]
+        flash[:notice] = "You must login to visit the page."
+        redirect_to '/'
+      end
+    end
+    
 end

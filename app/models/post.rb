@@ -1,9 +1,15 @@
 class Post < ActiveRecord::Base
 
-  has_many :comments
+  named_scope :displays, :conditions => { :display => true }
+  has_many :comments, :class_name => 'Comment', :foreign_key => 'parent_id'
   
-  def to_params
-    id.to_s + "a"
+  
+  def next_post
+    Post.find(:first, :conditions => ["id > ? and display=?", self.id, true])
+  end
+  
+  def prev_post
+    Post.find(:first, :conditions => ["id < ? and display=?", self.id, true])
   end
   
 end

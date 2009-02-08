@@ -40,6 +40,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resume '/resume', :controller => "site", :action => "resume"
   map.contact '/contact', :controller => "site", :action => 'contact'
+  map.logout '/logout', :controller => "site", :action => 'logout'
+  map.login '/login', :controller => "site", :action => 'login'
   
   map.blog '/blog', :controller => 'posts'
   map.page '/blog/:id', :controller => 'posts', :action => 'show'

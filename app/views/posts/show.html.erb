@@ -1,18 +1,15 @@
-<p>
-  <b>Title:</b>
-  <%=h @post.title %>
-</p>
-
-<p>
-  <b>Content:</b>
-  <%=h @post.content %>
-</p>
-
-<p>
-  <b>Display:</b>
-  <%=h @post.display %>
-</p>
-
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<div>
+	<h3><span class="title"><%= @post.title %></span></h3>
+	<p class="time">Created at <span ><%= @post.created_at.strftime("%d/%b/%Y, %H : %M") %></span></p>
+	<p class="content">
+		<%= @post.content %>
+	</p>
+</div>
+<div>
+	<% if @post.prev_post %>
+		<%= link_to "Previous Post", page_path(@post.prev_post.id) %>
+	<% end %>
+	<% if @post.next_post %>
+		<%= link_to "Next Post", page_path(@post.next_post.id) %>
+	<% end %>
+</div>

@@ -1,0 +1,80 @@
+Unable to load blog, underlying cause no such file to load -- blog 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/blog_test.rb:1:in `require'
+./test/unit/blog_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load blog, underlying cause no such file to load -- blog 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/blogs_controller_test.rb:1:in `require'
+./test/functional/blogs_controller_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load blog, underlying cause no such file to load -- blog 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/blog_test.rb:1:in `require'
+./test/unit/blog_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load blog, underlying cause no such file to load -- blog 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/blogs_controller_test.rb:1:in `require'
+./test/functional/blogs_controller_test.rb:1
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5

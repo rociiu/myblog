@@ -12,12 +12,16 @@ h1 {
 h2 {
 	font-size: 3em;
 }
+h3 {
+	font-size: 1.3em;
+	margin: 1em 0;
+}
 a {
 	color: #3366FF;
 }
 #wraper {
 	text-align: left;
-	width: 60%;
+	width: 760px;
 	margin: 0 auto;
 	margin-top: 20px;
 	background: #fff;
@@ -31,6 +35,7 @@ a {
 }
 #menu {
 	float: right;
+	padding: .5em 0;
 }
 #menu ul li {
 	display: inline;
@@ -44,7 +49,6 @@ a {
 	cursor: pointer;
 }
 #menu ul li a {
-	padding: .5em;
 	text-decoration: none;
 }
 #menu ul li:hover {
@@ -91,6 +95,25 @@ li.post .title:hover a {
 li.post .date .year {
 	background: #1F1D1D;
 	color: white;
+}
+span.title {
+	margin: 1em 0;
+	border-bottom: 1px solid #ddd;
+}
+p.time {
+	font-size: .8em;
+}
+p.time span {
+	border-bottom: 1px solid #ddd;
+}
+p.content {
+	margin: 2em 0;
+}
+#notice {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #EF95D4;
+	background: #FFCFF0;
 }
 .clear {
 	clear: both;
