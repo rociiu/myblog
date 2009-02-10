@@ -33,6 +33,10 @@ a {
 #logo {
 	float: left;
 }
+#logo a {
+	color: #16BAE3;
+	text-decoration: none;
+}
 #menu {
 	float: right;
 	padding: .5em 0;
@@ -40,12 +44,11 @@ a {
 #menu ul li {
 	display: inline;
 	margin-right: 10px;
-	background: #D5E9F6;
 	float: left;
-	padding: .5em;
-	width: 90px;
+	padding: .3em;
+	width: 80px;
 	text-align: center;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 2px solid #ccc;
 	cursor: pointer;
 }
 #menu ul li a {
@@ -64,6 +67,9 @@ a {
 	margin-top: 40px;
 	width: 100%;
 	font-size: 1.4em;
+}
+#tools {
+	margin: 1em 0 ;
 }
 div.posts {
 	margin: 0 auto;
@@ -109,6 +115,14 @@ p.time span {
 p.content {
 	margin: 2em 0;
 }
+.page_nav {
+	margin: 2em 0;
+	font-size: .8em;
+}
+.page_nav a {
+	color: #2C508F;
+}
+
 #notice {
 	margin: 1em 0;
 	padding: 1em;

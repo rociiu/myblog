@@ -1,0 +1,2 @@
+require 'RedCloth'
+require 'coderay'

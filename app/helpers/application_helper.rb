@@ -17,4 +17,9 @@ module ApplicationHelper
     """
   end
   
+  def logged_in?
+    !session[:user].nil?
+  end
+  
+  
 end

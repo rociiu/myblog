@@ -3,14 +3,14 @@
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Blog</title>
-        <%= stylesheet_link_tag 'reset-min', 'screen' %>
+        <%= stylesheet_link_tag 'reset-min', 'screen', 'coderay' %>
         <%= javascript_include_tag  'plugins/jquery', 'plugins/jquery.easing.1.3', 'application' %>
     </head>
 
     <body id="<%= controller.controller_name %>">
 			<div id="wraper">
 				<div id="header">
-					<div id="logo"><h1>rociiu.com</h1></div>
+					<div id="logo"><h1><a href="/">rociiu</a></h1></div>
 					<div id="menu">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -23,6 +23,12 @@
 					<div class="clear"></div>
 				</div>
 	  	  <div id="mainContent">
+					<% if logged_in? %>
+						<div id="tools">
+							<%= link_to 'New Post', new_post_path %>
+							<%= link_to 'Logout', logout_path %>
+						</div>
+					<% end %>
 					<% if flash[:notice] %>
 						<div id="notice">
 							<%= flash[:notice] %>

@@ -13,7 +13,16 @@ class SiteController < ApplicationController
   end
   
   def login
-    
+    if request.post?
+      if params[:key] == KEY
+        session[:user] = params[:key]
+        flash[:notice] = "Login successfully."
+        redirect_to '/'
+      else
+        flash[:notice] = "Are you roc?"
+        session[:user] = nil
+      end
+    end
   end
   
   def logout

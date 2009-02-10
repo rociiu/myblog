@@ -1,11 +1,12 @@
 <div>
 	<h3><span class="title"><%= @post.title %></span></h3>
+	<p><%= link_to "edit", edit_post_path(@post) if logged_in? %></p>
 	<p class="time">Created at <span ><%= @post.created_at.strftime("%d/%b/%Y, %H : %M") %></span></p>
 	<p class="content">
-		<%= @post.content %>
+		<%= Textilizer.new(@post.content).to_html %>
 	</p>
 </div>
-<div>
+<div class="page_nav">
 	<% if @post.prev_post %>
 		<%= link_to "Previous Post", page_path(@post.prev_post.id) %>
 	<% end %>
