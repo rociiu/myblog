@@ -1,5 +1,7 @@
 class Post < ActiveRecord::Base
 
+  has_permalink :title
+  
   named_scope :displays, :conditions => { :display => true }
   has_many :comments, :class_name => 'Comment', :foreign_key => 'parent_id'
   

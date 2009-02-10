@@ -112,8 +112,13 @@ p.time {
 p.time span {
 	border-bottom: 1px solid #ddd;
 }
-p.content {
+div.content {
 	margin: 2em 0;
+}
+div.content a {
+	font-size: .9em;
+	background: #D5E9F6;
+	padding: 2px;
 }
 .page_nav {
 	margin: 2em 0;
@@ -131,4 +136,9 @@ p.content {
 }
 .clear {
 	clear: both;
+}
+.tips {
+	margin: 1em 0;
+	font-size: .9em;
+	color: #999;
 }

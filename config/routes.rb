@@ -43,8 +43,8 @@ ActionController::Routing::Routes.draw do |map|
   map.logout '/logout', :controller => "site", :action => 'logout'
   map.login '/login', :controller => "site", :action => 'login'
   
-  map.blog '/blog', :controller => 'posts'
-  map.page '/blog/:id', :controller => 'posts', :action => 'show'
+  map.blog '/archives', :controller => 'posts'
+  map.page '/p/:id', :controller => 'posts', :action => 'show'
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.

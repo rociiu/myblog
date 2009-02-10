@@ -9,18 +9,16 @@
 
     <body id="<%= controller.controller_name %>">
 			<div id="wraper">
-				<div id="header">
+				<div id="header" class="clearfix">
 					<div id="logo"><h1><a href="/">rociiu</a></h1></div>
 					<div id="menu">
 						<ul>
 							<li><a href="/">Home</a></li>
-							<li><a href="/blog">Blog</a></li>
+							<li><a href="/archives">Blog</a></li>
 							<li><a href="/resume">Resume</a></li>
 							<li><a href="/contact">Contact me</a></li>
 						</ul>
-						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
 				</div>
 	  	  <div id="mainContent">
 					<% if logged_in? %>
