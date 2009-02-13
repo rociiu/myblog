@@ -1,0 +1,23 @@
+<p>
+  <b>Email:</b>
+  <%=h @contact.email %>
+</p>
+
+<p>
+  <b>Site:</b>
+  <%=h @contact.site %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @contact.content %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @contact.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>

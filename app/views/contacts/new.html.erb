@@ -1,0 +1,25 @@
+<div class="contact">
+	<%= error_messages_for :contact %>
+	<% form_for(@contact) do |f| %>
+	<dl>
+		<dt><%= f.label :email %></dt>
+		<dd><%= f.text_field :email %></dd>
+		
+		<dt><%= f.label :site %></dt>
+		<dd><%= f.text_field :site %></dd>
+		
+		<dt><%= f.label :title %></dt>
+		<dd><%= f.text_field :title %></dd>
+		
+		<dt><%= f.label :content %></dt>
+		<dd><%= f.text_area :content, :cols => '30', :rows => '10'%></dd>
+		
+		<dt></dt>
+		<dd><%= f.submit "Submit" %></dd>
+	</dl>
+
+	    
+	<% end %>
+</div>
+
+

@@ -2,6 +2,8 @@ body {
 	text-align: center;
 	font-size: 80%;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background: #e1e1e1;
+	padding: 1em 0;
 }
 h1 {
 	font-size: 4em;
@@ -21,11 +23,11 @@ a {
 }
 #wraper {
 	text-align: left;
-	width: 760px;
+	width: 800px;
 	margin: 0 auto;
-	margin-top: 20px;
 	background: #fff;
-	padding: 1em;
+	padding: 2em;
+	border: 3px solid #ccc;
 }
 #header {
 	margin: 10px 0;
@@ -67,7 +69,7 @@ a {
 	margin-top: 40px;
 	width: 100%;
 	font-size: 1.4em;
-	min-height: 400px;
+	min-height: 430px;
 }
 #tools {
 	margin: 1em 0 ;
@@ -154,6 +156,15 @@ div.resume ol li p {
 .twitter img, .delicious img {
 	margin: 0 1em;
 }
+.contact {
+	padding: .5em;
+}
+.contact * {
+	margin-top: .3em;
+}
+.contact h2 {
+	font-size: 1.1em;
+}
 #notice {
 	margin: 1em 0;
 	padding: 1em;
@@ -172,4 +183,10 @@ div.resume ol li p {
 	margin: 1em 0;
 	font-size: .9em;
 	color: #999;
+}
+#errorExplanation {
+	font-size: .7em;
+	background: #FFBFF8;
+	padding: .5em ;
+	border: 1px solid #FFDFFB;
 }

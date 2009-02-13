@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :contacts
+
   map.resources :comments
 
   map.resources :posts
@@ -39,7 +41,7 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => "site"
   
   map.resume '/resume', :controller => "site", :action => "resume"
-  map.contact '/contact', :controller => "site", :action => 'contact'
+  map.contact '/contact', :controller => "contacts", :action => 'new'
   map.logout '/logout', :controller => "site", :action => 'logout'
   map.login '/login', :controller => "site", :action => 'login'
   
