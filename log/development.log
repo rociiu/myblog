@@ -9552,3 +9552,1824 @@ Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:00:59) [GET]
 Rendering template within layouts/default
 Rendering site/resume
 Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:02:07) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-10 22:02:08) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-10 22:02:10) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-10 22:02:12) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-10 22:02:14) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+Completed in 360ms (View: 351, DB: 1) | 200 OK [http://127.0.0.1/p/4]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-10 22:02:16) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/p/5]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-10 22:02:18) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 6) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 6 and display='t') LIMIT 1[0m
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/p/6]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:02:20) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:02:42) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:02) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:09) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:34) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:35) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:46) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:50) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:03:50) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:04:10) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:04:48) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:05:13) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:01) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:22) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:23) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:41) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:52) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:56) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:06:59) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:07:11) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-10 22:07:19) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 22:02:25) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 22:15:45) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 126ms (View: 107, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 22:15:45) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 91ms (View: 85, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 22:15:49) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+Completed in 131ms (View: 123, DB: 1) | 200 OK [http://127.0.0.1/p/5]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 22:15:52) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 6) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 6 and display='t') LIMIT 1[0m
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/6]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 22:16:11) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 6) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 6 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/p/6]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:05:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 1 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:05:58) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 24ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:18:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:19:11) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:19:11) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:22:41) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:23:01) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:26:29) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:31:39) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:31:56) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 98ms (View: 96, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:32:38) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:32:58) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:32:59) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:33:09) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:33:37) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:34:32) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:34:32) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 103ms (View: 96, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:34:34) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:34:34) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:34:44) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:34:46) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:34:46) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:36:08) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/4]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:36:10) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:36:42) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 109ms (View: 11, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:36:46) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:36:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 1 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:36:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:37:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:37:13) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:37:21) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:40:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 1 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/1]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:40:13) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:40:17) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:41:25) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:41:31) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 6) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 6 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.1ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 6 and display='t') LIMIT 1[0m
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/6]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:41:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 1 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/p/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:41:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-11 23:41:48) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:41:51) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:41:51) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:41:55) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:42:15) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:42:15) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#login (for 127.0.0.1 at 2009-02-11 23:42:21) [GET]
+Rendering template within layouts/default
+Rendering site/login
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://127.0.0.1/login]
+
+
+Processing SiteController#login (for 127.0.0.1 at 2009-02-11 23:42:25) [POST]
+  Parameters: {"url"=>"/login", "authenticity_token"=>"8d2fc7efb010880f41b0f0bb5143df807db673dc", "key"=>"whatthefuck"}
+Redirected to /
+Completed in 3ms (DB: 0) | 302 Found [http://127.0.0.1/login?url=%2Flogin]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:42:25) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2009-02-11 23:42:33) [GET]
+Rendering template within layouts/default
+Rendering posts/new
+Rendered posts/_textile_tips (0.3ms)
+Completed in 27ms (View: 21, DB: 0) | 200 OK [http://127.0.0.1/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:42:38) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#logout (for 127.0.0.1 at 2009-02-11 23:44:22) [GET]
+Redirected to /
+Completed in 3ms (DB: 0) | 302 Found [http://127.0.0.1/logout]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:44:22) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:44:26) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:44:40) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:44:46) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:44:46) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:44:48) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:44:48) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:44:50) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:44:58) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:44:59) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:45:01) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:45:01) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:46:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:46:03) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+Completed in 115ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/4]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:46:10) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:46:10) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (3.6ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 19ms (View: 10, DB: 4) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:46:17) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 4) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 4 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 4 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 14, DB: 1) | 200 OK [http://127.0.0.1/p/4]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-11 23:46:19) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."id" = 5) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 5 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 5 and display='t') LIMIT 1[0m
+Completed in 24ms (View: 16, DB: 1) | 200 OK [http://127.0.0.1/p/5]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:46:21) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:46:26) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:46:27) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:46:48) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:47:24) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:49:57) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:49:59) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:50:57) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:51:35) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:51:58) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:52:00) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:52:00) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:52:04) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:52:06) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:52:06) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-11 23:52:08) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-11 23:52:08) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:52:12) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-11 23:52:12) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-11 23:52:14) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 106ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:52:16) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:52:16) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-11 23:52:18) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-11 23:52:18) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:55:06) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:55:06) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:55:44) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:56:25) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:57:30) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:59:10) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-11 23:59:40) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:27:18) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:28:47) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:02) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-12 23:30:02) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/intro.gif" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:11) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-12 23:30:11) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/intro.gif" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-12 23:30:21) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/images/intro.gif" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:33) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:44) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:49) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:30:56) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:31:56) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:32:05) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:32:15) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:32:34) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:32:35) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:32:46) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:34:16) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:35:08) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:35:43) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:35:59) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:36:02) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:36:07) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:37:31) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:37:39) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:37:58) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 87ms (View: 85, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:38:07) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 131ms (View: 108, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:38:07) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-12 23:38:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 1) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 1 and display='t') LIMIT 1[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 1 and display='t') LIMIT 1[0m
+Completed in 62ms (View: 54, DB: 1) | 200 OK [http://127.0.0.1/p/1]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-02-12 23:38:15) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."id" = 3) [0m
+Rendering template within layouts/default
+Rendering posts/show
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id < 3 and display='t') LIMIT 1[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE (id > 3 and display='t') LIMIT 1[0m
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/p/3]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:38:17) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:38:17) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:38:18) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:39:44) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:40:42) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:41:14) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:41:34) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:41:36) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:41:37) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:41:37) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:41:38) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:41:38) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:42:16) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:42:24) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:42:32) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:42:52) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:42:56) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:42:56) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:42:57) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:42:57) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:43:00) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:43:00) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:43:01) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:43:05) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:43:12) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:43:49) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:44:26) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:44:35) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:45:21) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:45:27) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:45:33) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:45:42) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:45:48) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:45:50) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:45:50) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:20) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:28) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:43) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:44) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:49) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:50) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:57) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:46:59) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:47:29) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:47:31) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:47:38) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:47:46) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:47:50) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 335ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:47:50) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:01) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 93ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:01) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:13) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:48:25) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:48:25) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:48:34) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:37) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:37) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-12 23:48:44) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:46) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:46) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-12 23:48:48) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:48:49) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-12 23:48:49) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:51) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-12 23:48:51) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://127.0.0.1/resume]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "posts" WHERE ("posts"."display" = 'f') [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM "posts" LIMIT 1[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-13 23:30:22) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-13 23:35:26) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-02-13 23:35:43) [GET]
+Rendering template within layouts/default
+Rendering site/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:35:57) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 168ms (View: 160, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:35:57) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 66ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:37:07) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 65ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:37:29) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 65ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:37:39) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.3ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 65ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:37:53) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:06) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 57, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:13) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.2ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:38) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:49) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 65ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:49) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:51) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.5ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:38:51) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;36;1mPost Load (1.6ms)[0m   [0;1mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 2) | 200 OK [http://127.0.0.1/archives]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-13 23:38:52) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#resume (for 127.0.0.1 at 2009-02-13 23:38:52) [GET]
+Rendering template within layouts/default
+Rendering site/resume
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/resume]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-13 23:38:58) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-13 23:38:58) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2009-02-13 23:39:20) [GET]
+Rendering template within layouts/default
+Rendering site/contact
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/contact]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-02-13 23:39:23) [GET]
+Rendering template within layouts/default
+Rendering posts/index
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM "posts" WHERE ("posts"."display" = 't') [0m
+Completed in 64ms (View: 56, DB: 1) | 200 OK [http://127.0.0.1/archives]
