@@ -8,9 +8,9 @@
 </div>
 <div class="page_nav">
 	<% if @post.prev_post %>
-		<%= link_to "Previous Post", page_path(@post.prev_post.id) %>
+		<%= link_to "Previous", page_path(@post.prev_post.id) %>
 	<% end %>
 	<% if @post.next_post %>
-		<%= link_to "Next Post", page_path(@post.next_post.id) %>
+		<%= link_to "Next", page_path(@post.next_post.id) %>
 	<% end %>
 </div>
