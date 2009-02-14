@@ -1,4 +1,6 @@
 class ContactsController < ApplicationController
+  
+  before_filter :login_required, :except => [:new, :create]
   # GET /contacts
   # GET /contacts.xml
   def index
@@ -24,6 +26,7 @@ class ContactsController < ApplicationController
   # GET /contacts/new
   # GET /contacts/new.xml
   def new
+    @page_title = "rociiu | contact"
     @contact = Contact.new
 
     respond_to do |format|
@@ -40,13 +43,13 @@ class ContactsController < ApplicationController
   # POST /contacts
   # POST /contacts.xml
   def create
+    @page_title = "rociiu | contact"
     @contact = Contact.new(params[:contact])
 
     respond_to do |format|
       if @contact.save
-        flash[:notice] = 'Contact was successfully created.'
-        format.html { redirect_to(@contact) }
-        format.xml  { render :xml => @contact, :status => :created, :location => @contact }
+        flash[:notice] = 'Thanks for your message, I will reponse asap.'
+        format.html { redirect_to("/_contact") }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @contact.errors, :status => :unprocessable_entity }

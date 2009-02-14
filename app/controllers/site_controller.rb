@@ -1,15 +1,15 @@
 class SiteController < ApplicationController
   
   def index
-    
+    @page_title = "rociiu | home"
   end
   
   def resume
-    
+    @page_title = "rociiu | resume"
   end
   
   def contact
-    
+    @page_title = "rociiu | contact"
   end
   
   def login

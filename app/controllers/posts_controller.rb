@@ -4,7 +4,12 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
   def index
-    @posts = Post.displays
+    @page_title = "rociiu | archives"
+    if logged_in?
+      @posts = Post.all
+    else
+      @posts = Post.newest_post
+    end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -16,6 +21,7 @@ class PostsController < ApplicationController
   # GET /posts/1.xml
   def show
     @post = Post.find(params[:id])
+    @page_title = @post.title
 
     respond_to do |format|
       format.html # show.html.erb
@@ -86,6 +92,16 @@ class PostsController < ApplicationController
   end
   
   def export
+    if logged_in?
+      @posts = Post.all
+    else
+      @posts = Post.newest_post
+    end
+    
+    respond_to do |format|
+      format.html # index.html.erb
+      format.xml  { render :xml => @posts }
+    end
     
   end
   

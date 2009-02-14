@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :comments
 
-  map.resources :posts
+  map.resources :posts, :collection => [:export]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -41,7 +41,7 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => "site"
   
   map.resume '/resume', :controller => "site", :action => "resume"
-  map.contact '/contact', :controller => "contacts", :action => 'new'
+  map.the_contact '/_contact', :controller => "contacts", :action => 'new'
   map.logout '/logout', :controller => "site", :action => 'logout'
   map.login '/login', :controller => "site", :action => 'login'
   

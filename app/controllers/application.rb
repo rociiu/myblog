@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   
   layout 'default'
   
-  before_filter :check_browser
+  before_filter :check_browser, :set_page_title
   
   
   protected
@@ -35,6 +35,10 @@ class ApplicationController < ActionController::Base
     
     def logged_in?
       !session[:user].nil?
+    end
+    
+    def set_page_title
+      @page_title = "rociiu"
     end
     
 end
