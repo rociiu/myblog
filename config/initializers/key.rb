@@ -1,1 +1,1 @@
-KEY = 'whatthefuck'
+KEY = 'yourkeyshere'
